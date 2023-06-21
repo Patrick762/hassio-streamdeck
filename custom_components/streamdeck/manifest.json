@@ -1,19 +1,14 @@
 {
   "domain": "streamdeck",
   "name": "Stream Deck",
-  "codeowners": [
-    "@Patrick762"
-  ],
-  "integration_type": "device",
+  "codeowners": ["@Patrick762"],
   "config_flow": true,
   "dependencies": [],
   "documentation": "https://github.com/Patrick762/hacs-streamdeck",
   "issue_tracker": "https://github.com/Patrick762/hacs-streamdeck/issues",
+  "integration_type": "device",
   "iot_class": "local_push",
-  "requirements": [
-    "mdiicons==0.0.2",
-    "streamdeckapi==0.0.7"
-  ],
+  "requirements": ["mdiicons==0.0.2", "streamdeckapi==0.0.7"],
   "ssdp": [
     {
       "st": "urn:home-assistant-device:stream-deck"
@@ -22,8 +17,6 @@
       "deviceType": "urn:home-assistant-device:stream-deck"
     }
   ],
-  "zeroconf": [
-    "_stream-deck-api._tcp.local."
-  ],
+  "zeroconf": ["_stream-deck-api._tcp.local."],
   "version": "0.0.1"
 }
