@@ -19,4 +19,4 @@ cp -R ./ha-core/homeassistant/components/streamdeck ./custom_components/streamde
 rm ./custom_components/streamdeck/manifest.json
 
 # Insert current manifest.json
-cp ./manifest.json ./custom_components/streamdeck/manifest.json
+cp ./manifest_template.json ./custom_components/streamdeck/manifest.json
