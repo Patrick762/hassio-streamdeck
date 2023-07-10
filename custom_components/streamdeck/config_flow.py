@@ -3,7 +3,7 @@ import logging
 from typing import Any
 from urllib.parse import urlparse
 
-from streamdeckapi import SDDevice, SDInfo, StreamDeckApi, get_model
+from streamdeckapi import SDInfo, StreamDeckApi, get_model
 import voluptuous as vol
 
 from homeassistant.components import ssdp, zeroconf
@@ -38,10 +38,6 @@ class StreamDeckConfigFlow(ConfigFlow, domain=DOMAIN):
             self.unique_id = self.host
             return None
         self.unique_id = self.host
-        #devices: list[SDDevice] = info.devices
-        #for device in devices:
-        #    if isinstance(device, SDDevice):
-        #        self.unique_id = f"{self.unique_id}|{device.id}"
         # Prevent duplicates
         _LOGGER.warning("Setting unique id to %s", self.unique_id)
         await self.async_set_unique_id(self.unique_id)
