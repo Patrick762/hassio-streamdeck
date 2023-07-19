@@ -1,8 +1,8 @@
 # hassio-streamdeck
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://github.com/hacs/integration)
-[![Validate with hassfest](https://github.com/Patrick762/hass-streamdeck/actions/workflows/hassfest_validation.yml/badge.svg)](https://github.com/Patrick762/hass-streamdeck/actions/workflows/hassfest_validation.yml)
-[![HACS Action](https://github.com/Patrick762/hass-streamdeck/actions/workflows/HACS.yml/badge.svg)](https://github.com/Patrick762/hass-streamdeck/actions/workflows/HACS.yml)
+[![Validate with hassfest](https://github.com/Patrick762/hassio-streamdeck/actions/workflows/hassfest_validation.yml/badge.svg)](https://github.com/Patrick762/hassio-streamdeck/actions/workflows/hassfest_validation.yml)
+[![HACS Action](https://github.com/Patrick762/hassio-streamdeck/actions/workflows/HACS.yml/badge.svg)](https://github.com/Patrick762/hassio-streamdeck/actions/workflows/HACS.yml)
 
 Stream Deck Integration for Home Assistant
 
@@ -13,7 +13,7 @@ To use this integration, you need a Stream Deck and one of the following softwar
 ## Installation
 To install this Integration, you first have to add this repository as a `custom repository`.
 This can be done if you navigate to the three dots in the HACS `Integrations` Tab.
-Just copy and paste the repository URL `https://github.com/Patrick762/hass-streamdeck` into the `Repository` Field on the bottom and choose `Integration` as the Category.
+Just copy and paste the repository URL `https://github.com/Patrick762/hassio-streamdeck` into the `Repository` Field on the bottom and choose `Integration` as the Category.
 After you clicked the `Add` button, you can search for the integration in HACS.
 
 ## Using the integration
