@@ -7,7 +7,7 @@
 Stream Deck Integration for Home Assistant
 
 To use this integration, you need a Stream Deck and one of the following software:
-- [Stream Deck API Server](https://github.com/Patrick762/streamdeckapi)
+- [Stream Deck API Server](https://github.com/Patrick762/streamdeckapi) [![PyPI version](https://badge.fury.io/py/streamdeckapi.svg)](https://badge.fury.io/py/streamdeckapi)
 - [Plugin for the Stream Deck Software](https://github.com/Patrick762/streamdeckapi-plugin)
 
 ## Installation
